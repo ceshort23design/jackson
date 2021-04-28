@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: rgba(251, 255, 0, 0.897);
+}
+
+.howdy {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.hello, button, .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 7vw;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 20px;
+}
+
+.hello {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+button {
+    background-color: rgb(167, 20, 20);
+    padding: 30px;
+    padding-right: 40px;
+    border-radius: 150px;
+}
